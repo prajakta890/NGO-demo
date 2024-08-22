@@ -1,0 +1,22 @@
+.AboutUs{
+    padding: 30px 280px;
+    height: 500px;
+    display: flex;
+}
+
+.About-right{
+    padding: 30px 0px;
+}
+
+.round-img{
+    padding: 90px 20px;
+    width: 350px; /* Adjust size as needed */
+    height: 350px; /* Ensure width and height are equal for a perfect circle */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover; /* This ensures the image covers the entire area without stretching */
+    border: 2px solid #fff; 
+}
+
+.About-right p{
+    text-align: justify;
+}
